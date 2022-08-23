@@ -1,0 +1,25 @@
+apiVersion: v1
+entries:
+  metaflow-service:
+  - apiVersion: v2
+    appVersion: 2.2.4
+    created: "2022-08-23T14:26:45.718066003Z"
+    description: A Helm chart to deploy Metadata Service for Metaflow
+    digest: 77b525ba256f73f20e819c820b13e3b382bfd80516571cfeb06ed1e41bff8d2c
+    name: metaflow-service
+    type: application
+    urls:
+    - https://github.com/bcgalvin/metaflow-helm/releases/download/metaflow-service-0.2.0/metaflow-service-0.2.0.tgz
+    version: 0.2.0
+  metaflow-ui:
+  - apiVersion: v2
+    appVersion: 2.1.0
+    created: "2022-08-23T14:26:45.872618138Z"
+    description: A Helm chart for Kubernetes
+    digest: 2da3633c939ec635c5177254e3b2e67f6f791a0578461f6a711c33b07822a6d7
+    name: metaflow-ui
+    type: application
+    urls:
+    - https://github.com/bcgalvin/metaflow-helm/releases/download/metaflow-ui-0.1.0/metaflow-ui-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-08-23T14:26:45.872630238Z"
